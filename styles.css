@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 100px;
+}
+
+h1 {
+    color: green; /* changed color to green */
+    margin-bottom: 50px; /* added more gap between title and button */
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.photo {
+    margin-top: 20px; /* added margin to the top of the photo */
+    max-width: 100%; /* ensuring photo does not exceed its container width */
+}
+/* Existing styles */
+
+.sniper {
+    background-color: yellow;
+}
+
+.commando {
+    background-color: red;
+}
+
+.spy {
+    background-color: gray;
+}
+
+.sailors {
+    background-color: blue;
+}
+
+.tanks {
+    background-color: orange;
+}
+
+.pilots {
+    background-color: green;
+}
